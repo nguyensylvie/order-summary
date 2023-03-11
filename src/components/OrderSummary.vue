@@ -82,7 +82,7 @@ export default {
 
 <style scoped>
 .background {
-  background-image: url("./src/assets/pattern-background-mobile.svg");
+  background-image: url("../assets/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
@@ -125,7 +125,7 @@ export default {
 
 @media (min-width: 600px) {
   .background {
-    background-image: url("./src/assets/pattern-background-desktop.svg");
+    background-image: url("../assets/pattern-background-desktop.svg");
   }
   .v-card-title {
     font-size: 1.5rem;
