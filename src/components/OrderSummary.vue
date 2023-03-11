@@ -1,7 +1,7 @@
 <template>
   <div class="background">
     <v-container class="fill-height text-center">
-      <v-card class="mx-auto rounded-xl shadow" max-width="400">
+      <v-card class="mx-auto rounded-xl shadow" max-width="380">
         <v-img :height="height" src="@/assets/illustration-hero.svg" cover>
         </v-img>
         <div class="px-8">
@@ -69,7 +69,7 @@ export default {
         case "xs":
           return 170;
         case "sm":
-          return 200;
+          return 190;
       }
 
       return undefined;
