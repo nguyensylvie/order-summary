@@ -5,9 +5,7 @@
         <v-img :height="height" src="@/assets/illustration-hero.svg" cover>
         </v-img>
         <div class="px-8">
-          <v-card-title class="pt-8 pb-4 font-weight-bold text-darkblue"
-            >Order Summary</v-card-title
-          >
+          <h1 class="pt-8 font-weight-bold text-darkblue">Order Summary</h1>
 
           <v-card-text class="text-desaturatedblue">
             <div>
@@ -87,7 +85,7 @@ export default {
   background-size: contain;
   height: 100vh;
 }
-.v-card-title {
+h1 {
   font-size: 1.5rem;
 }
 .v-card-text {
@@ -127,7 +125,7 @@ export default {
   .background {
     background-image: url("../assets/pattern-background-desktop.svg");
   }
-  .v-card-title {
+  h1 {
     font-size: 1.5rem;
   }
   .v-card-text {
